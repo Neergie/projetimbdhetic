@@ -1,0 +1,56 @@
+.menu {
+    display: flex;
+    padding:0;
+    background-color: #2e3443; 
+    justify-content: space-around;
+    list-style-type: none;
+}
+
+.menu a {
+    display:block;
+    min-width: 120px;
+    margin: 0.5rem;
+    padding: 0.4rem 0;
+    text-align: center;
+    background-color: #ffffff;
+    color: rgb(0, 0, 0);
+    text-decoration: none;        
+
+    
+    transition: all 0.5s ;
+}
+
+.menu a.actif {    
+
+    background-color: rgb(0, 0, 0) ; 
+    color: #ffffff ;
+    border-color: #ffffff ;
+}
+.menu a:hover,
+.menu a:hover.actif{
+    background-color: #000000;
+    color: #ffffff;
+    border-color: #000000;
+}
+
+.theme {
+    background-color: #1f232c;
+}
+
+.imglogo {
+    width: 100px;
+}
+
+.titrefilm {
+    color: #ffffff;
+    text-align: center;
+    padding-top: 20px;
+}
+
+.descriptionfilm {
+    color: #ffffff;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 20px; 
+    font-size: 15px;
+}
